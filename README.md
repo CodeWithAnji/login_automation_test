@@ -55,7 +55,7 @@ pytest → conftest.py → Browser opens → Test runs → Browser closes
 
 ### 1️⃣ Clone Repository
 
-git clone [<your-repo-link>](https://github.com/CodeWithAnji/login_automation_test.git)
+git clone https://github.com/CodeWithAnji/login_automation_test.git
 
 pytest
 
@@ -80,7 +80,9 @@ pytest
 ## 📋 requirements.txt Example
 
 selenium
+
 pytest
+
 webdriver-manager
 
 ## 🧠 Important Rules
