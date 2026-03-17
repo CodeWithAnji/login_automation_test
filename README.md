@@ -1,4 +1,4 @@
-# 🧪 Selenium Pytest Automation Framework
+# 🧪 Selenium Pytest Login Automation Framework
 
 This project is an automated testing framework built using:
 - Python
@@ -34,18 +34,12 @@ pytest → conftest.py → Browser opens → Test runs → Browser closes
 
 ### 2️⃣ How It Works
 
-1. `conftest.py`
-   - Contains browser setup & teardown
-   - Uses pytest fixtures
-   - Starts Chrome before test
-   - Closes browser after test
-
-2. `pages/`
+1. `pages/`
    - Contains Page Object classes
    - Stores locators
    - Contains page actions (login, click, etc.)
 
-3. `tests/`
+2. `tests/`
    - Contains test files
    - Uses functions starting with `test_`
    - Calls page methods
@@ -83,24 +77,7 @@ selenium
 
 pytest
 
-webdriver-manager
-
-## 🧠 Important Rules
-
-- Test files must start with `test_`
-- Test functions must start with `test_`
-- Use Page Object Model for clean structure
-- Keep drivers updated
-- Do NOT push venv folder to GitHub
-
-## 🔥 Why This Project Is Important
-
-This framework demonstrates:
-- Automation skills
-- Real-world project structure
-- Testing knowledge
-- Clean code practices
-- Interview readiness
+Chromedriver 
 
 ## 👨‍💻 Author
 
